@@ -19,8 +19,8 @@ let myProfile = {
 }
 
 /* Populate Profile Object with placesLive objects */
-myProfile.placesLived.push({place:"Sandy, UT",length:"8 years"})
 myProfile.placesLived.push({place:"Lehi, UT",length:"3 years"})
+myProfile.placesLived.push({place:"Sandy, UT",length:"8 years"})
 myProfile.placesLived.push({place:"Lancaster, PA",length:"1 year"})
 
 
