@@ -74,7 +74,7 @@ function buildSlider(light)
     slider.classList.add("slider")
     slider.onchange = (event) => {
         let level = event.target.value
-        let iconId = event.target.parentElement.id + "-state"
+        let iconId = `${event.target.parentElement.id}-state`
         light.level = level
         if (level > 0)
         {
