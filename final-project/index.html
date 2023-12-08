@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home Dashboard</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="module" src="scripts/index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="content">
+        <h1>Smart Home Dashboard</h1>
+        <select id="filter" title="Choose lights to show...">
+            <option value="" disabled selected>Filter Lights</option>
+            <option value="on">On</option>
+            <option value="off">Off</option>
+            <option value="all">All</option>
+        </select>
+        <div id="light-grid"></div>
+    </div>
+</body>
+</html>
